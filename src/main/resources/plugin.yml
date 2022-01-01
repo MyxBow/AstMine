@@ -1,0 +1,13 @@
+name: AstMine
+version: '${project.version}'
+main: fr.myxbow.astmine.AstMine
+api-version: 1.17
+depend: [ Vault ]
+authors: [ MyxBow ]
+commands:
+  mine:
+    description: Se diriger vers une zone
+  shop:
+    description: Ouvrir le magasin
+  rankup:
+    description: Acheter une mine
